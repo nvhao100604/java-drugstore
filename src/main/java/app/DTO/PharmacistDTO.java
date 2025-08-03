@@ -1,6 +1,6 @@
 package app.DTO;
 
-class PharmacistDTO {
+public class PharmacistDTO {
 	private String id;
 	private String name;
 	private String phone;

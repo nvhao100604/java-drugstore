@@ -2,7 +2,7 @@ package app.DTO;
 
 import java.time.LocalDate;
 
-class InvoiceDTO {
+public class InvoiceDTO {
 	private String id;
 	private LocalDate dateFound;
 	private String author;

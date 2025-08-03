@@ -1,1 +1,1 @@
-# java-drugstore
+# java-drugstore with Maven

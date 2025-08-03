@@ -2,7 +2,7 @@ package app.DTO;
 
 import java.time.LocalDate;
 
-class ProductDetailDTO {
+public class ProductDetailDTO {
 	private String id;
 	private String barcode;
 	private String batch;

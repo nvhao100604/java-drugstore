@@ -2,7 +2,7 @@ package app.DTO;
 
 import java.time.LocalDate;
 
-class CustomerDTO {
+public class CustomerDTO {
 	private int id;
 	private String fullName;
 	private LocalDate dateOfBorn;

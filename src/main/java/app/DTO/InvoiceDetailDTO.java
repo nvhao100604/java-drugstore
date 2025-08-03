@@ -1,6 +1,6 @@
 package app.DTO;
 
-class InvoiceDetailDTO {
+public class InvoiceDetailDTO {
 	private String barcode;
 	private double price;
 	private int quantity;

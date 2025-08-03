@@ -1,6 +1,6 @@
 package app.DTO;
 
-class ProductDTO {
+public class ProductDTO {
 	private String id;
 	private String name;
 	private String type;
@@ -12,10 +12,11 @@ class ProductDTO {
 	private ProductDetailDTO detail;
 
 	public ProductDTO() {
+		this.id = "-1";
 	}
 
-	public ProductDTO(String id, String name) {
-
+	public ProductDTO(String id) {
+		this.id = id;
 	}
 
 	public ProductDTO(String id, String name, String type, String producer, String specifications, String origin,
